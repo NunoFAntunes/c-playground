@@ -2,10 +2,13 @@
 
 int main() {
     /* testing code */
+    printf("3 times 5 is %d", multiply(3, 5));
+
     printf("0! = %i\n", factorial(0));
     printf("1! = %i\n", factorial(1));
     printf("3! = %i\n", factorial(3));
     printf("5! = %i\n", factorial(5));
+    return 0;
 }
 
 unsigned int multiply(unsigned int x, unsigned int y)
